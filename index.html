@@ -1,0 +1,223 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+<head> <title> Nombre de la página</title>
+
+    van cosas que ayudan a las características de la pagina
+   <link rel="icon" type="image/x-icon" href="/nucba/bebes.ico"> para el iconito de la pagina al lado del url
+        <meta charset="utf-8"> indica que el navegador entienda todos los caracterers y/o idiomas (para compatibilidad)
+        <meta http-equiv="" content=""> también es por un tema de compatibilidad
+        <meta name="vieport" content="width=device-width, initial-scale=1.0"> ayuda a que la pagina se ajuste a distintas pantallas y se vea bien en cualquier dispositivo (responsive)
+</head>
+
+
+<body>
+
+    <header> 
+        <!-- para poner comentarios (no aparece visible en la página - pero sí se ve en el inspector- se pueden usar para indicar secciones de la página)-->
+
+    <strong> 
+    (negrita: muestra que la palabra es importante y sirve para que se posicione mejor la página) MENU
+    </strong>
+    </header>
+
+    <nav>se puede usar para contener el menu</nav>
+    <main>
+        CUERPO
+        <p>This is a <br> paragraph with a line break. <!--se usa para dejar un espacio, aunque esto generalmente se hace con CSS--></p>
+
+    </main>
+
+    <aside>
+
+    </aside>
+
+
+    <h1> <i> (cursiva) TITULO </i></h1>
+    <p> 
+    <b>(también negrita, pero no sirve para posicionar la página) PARRAFO</b>
+    </p>
+    <span>
+PARRAFOS MAS CORTOS
+    </span>
+
+
+
+    <br>
+
+    <div>
+    <ol class="lista-ordenada" id="lista-ol"> LISTAS ORDENADAS
+        <!-- class se usa mas para CSS y ID mas para JAVA-->
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+    </ol>
+</div>
+
+
+<br>
+
+<div>
+    <ul> LISTAS DESORDENADAS (PUEDE SER EL MENU DE LA PAGINA)
+        <li>HOME</li>
+        <li>QUIENES SOMOS</li>
+        <li>CONTACTO</li>
+
+    </ul>
+
+    <br>
+
+    <h2>Tablas</h2>
+    <table>
+        <tr>
+            <!---table header-->
+            <th>lunes</th>
+            <th>martes</th>
+            <th>miercoles</th>
+            <th>jueves</th>
+            <th>viernes</th>
+        </tr>
+    
+        
+        <tr>
+            <!--van los datos dentro de la tabla-->
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+
+        tr>
+            <!--van los datos dentro de la tabla-->
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+
+
+    </table>
+</div>
+
+<br><br><br>
+
+
+<h2>FORMULARIO</h2>
+<FORM>
+
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" placeholder="Ingrese su nombre">
+    <br><br>
+
+    <label for="correo">Email</label>
+    <input type="email" id="correo" placeholder="Ingrese su email">
+    <br><br>
+
+    <label for="edad">Edad</label>
+    <input type="number" id="edad" placeholder="Ingrese su edad">
+    <br><br>
+
+    <label for="contraseña">Contraseña</label>
+    <input type="password" id="contraseña" placeholder="Ingrese su contraseña" required>
+
+    <!-- required significa que ese campo debe llenarse-->
+    <br><br>
+
+    <input type="submit" value="soy un boton">
+    <button type="submit">soy otro boton</button>
+
+    <br><br><br>
+
+    <label for="checkbox1">Soy un input de tipo checkbox</label>
+    <input type="checkbox" id="checkbox1" checked>
+    <br><br><br>
+
+
+
+    gusto de helado favorito:
+    <br><br>
+
+    <label for="dulce de leche">Dulce de leche</label>
+    <input type="radio" name="chocolate" id="dulce de leche">
+
+    <label for="frutilla">Frutillla</label>
+    <input type="radio" name="chocolate" id="frutilla">
+
+    <label for="limon">Limon</label>
+    <input type="radio" name="chocolate" id="limon">
+    <br><br>
+
+
+
+
+    jugamos?
+    <br><br>
+
+    <select>
+        <option value="piedra">piedra</option>
+        <option value="piedra">papel</option>
+        <option value="piedra">tijera</option>
+    </select>
+    <br><br>
+
+
+
+
+    <label for="texto">soy un area de texto</label>
+    <br>
+    <textarea id="texto" cols="20" rows="10"></textarea>
+
+<br><br>
+
+
+    
+</FORM>
+
+
+
+
+
+
+<br><br><br><br><br><br>
+
+
+
+
+
+<hr>
+<!--sirvo solo para hacer lineas divisoras. tambien me van a usar mientras solo sepan html-->
+
+
+<div>
+   <a> <img src="bebes.ico" alt="poner descripción relacionada con la imagen: perros"> </a>
+   
+</div>
+
+<br>
+
+
+<!--VER POR QUÈ NO SE VE LA IMAGEN DE ABAJO (sì funciona el link):-->
+<div>
+    <a href="https://www.micachorro.net/pastor-aleman-ovejero-aleman-cachorros-precio/"  target="_blank" alt="pastor aleman">Esta es una foto de internet (link)</a>
+</div>
+
+
+
+<br>
+
+    <footer>
+        PIE DE PAGINA:
+        <br>
+
+        <!--comentario: por ejemplo podemos poner links a otras páginas y aclararlo-->
+        <a href="https://www.w3schools.com" target="_blank" >This is a link </a>
+
+    </footer>
+
+</body>
+</html>
